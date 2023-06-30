@@ -3,9 +3,12 @@ board = [' '] * 9
 
 def draw_board():
     print('-' * 13)
-    for i in range(3):
-        print('|', board[0 + i], '|', board[1 + i], '|', board[2 + i], '|')
-        print('-' * 13)
+    print('|', board[0], '|', board[1], '|', board[2], '|')
+    print('-' * 13)
+    print('|', board[3], '|', board[4], '|', board[5], '|')
+    print('-' * 13)
+    print('|', board[6], '|', board[7], '|', board[8], '|')
+    print('-' * 13)
 
 win_comb = [
     [0, 1, 2], [3, 4, 5], [6, 7, 8],
